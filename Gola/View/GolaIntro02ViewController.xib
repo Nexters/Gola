@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GolaIntro02ViewController">
+            <connections>
+                <outlet property="intro02ButtonHeight" destination="wgw-ce-hwx" id="i0A-NH-mbM"/>
+                <outlet property="intro02ButtonWidth" destination="5Sl-3k-kyv" id="NII-nK-fKa"/>
+                <outlet property="intro02Graphic01Height" destination="DhK-Q7-KWC" id="itW-Xx-ZA9"/>
+                <outlet property="intro02Graphic01Top" destination="fPD-Zv-v6H" id="4Uh-c3-dh5"/>
+                <outlet property="intro02Graphic01Width" destination="pYp-XH-Ww4" id="yzz-rG-ogF"/>
+                <outlet property="intro02Graphic02Height" destination="Z3a-xE-RFo" id="XZU-Xn-nM8"/>
+                <outlet property="intro02Graphic02Top" destination="gg3-7U-ywz" id="B1f-H1-pbj"/>
+                <outlet property="intro02Graphic02Width" destination="UEC-XY-T8V" id="9O0-uc-Ls0"/>
+                <outlet property="intro02Graphic03Height" destination="dI6-zQ-wAD" id="0Im-B2-lsi"/>
+                <outlet property="intro02Graphic03Width" destination="qHj-FD-Ijh" id="uOF-uh-Kuu"/>
+                <outlet property="intro02Graphic04Height" destination="e4t-dH-4w4" id="phh-Fs-Jvx"/>
+                <outlet property="intro02Graphic04Width" destination="WED-cA-OkA" id="drm-Ay-TYN"/>
+                <outlet property="intro02LabelBottom" destination="r0S-fK-qVq" id="YaF-IS-9LA"/>
+                <outlet property="intro02TextHeight" destination="1eD-Y0-Xyf" id="qZR-xg-5vz"/>
+                <outlet property="intro02TextLeading" destination="Lwb-z3-IyP" id="zti-v7-lHS"/>
+                <outlet property="intro02TextTop" destination="bd1-Jh-wQ9" id="0TK-tW-J3y"/>
+                <outlet property="intro02TextTrailing" destination="0HX-sy-8tj" id="8Eb-Mt-oYi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="rvr-GX-O0Q">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="IJb-Qj-21L"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </pageControl>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro02Text" translatesAutoresizingMaskIntoConstraints="NO" id="hCz-ez-OQL">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="148" id="1eD-Y0-Xyf"/>
+                        <constraint firstAttribute="width" constant="208" placeholder="YES" id="fqB-It-tBu"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro02Graphic01" translatesAutoresizingMaskIntoConstraints="NO" id="QGO-Q2-nze">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="270" id="DhK-Q7-KWC"/>
+                        <constraint firstAttribute="width" constant="250" id="pYp-XH-Ww4"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro02Graphic02" translatesAutoresizingMaskIntoConstraints="NO" id="r1g-i5-a9M">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="UEC-XY-T8V"/>
+                        <constraint firstAttribute="height" constant="270" id="Z3a-xE-RFo"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro02Graphic03" translatesAutoresizingMaskIntoConstraints="NO" id="IQI-dE-yLy">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="135" id="dI6-zQ-wAD"/>
+                        <constraint firstAttribute="width" constant="214" id="qHj-FD-Ijh"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfn-ja-94S">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="5Sl-3k-kyv"/>
+                        <constraint firstAttribute="height" constant="60" id="wgw-ce-hwx"/>
+                    </constraints>
+                    <state key="normal" image="intro02Button"/>
+                    <state key="highlighted" image="intro02ButtonSelected"/>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="Edl-Cl-f82"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다음으로" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaX-E7-Hmr">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="HdY-oF-4IY"/>
+                        <constraint firstAttribute="height" constant="19" id="WBd-Hx-uly"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro02Graphic04" translatesAutoresizingMaskIntoConstraints="NO" id="rNj-Ww-vPB">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="WED-cA-OkA"/>
+                        <constraint firstAttribute="height" constant="135" id="e4t-dH-4w4"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hCz-ez-OQL" secondAttribute="trailing" priority="750" constant="103" id="0HX-sy-8tj"/>
+                <constraint firstAttribute="trailing" secondItem="r1g-i5-a9M" secondAttribute="trailing" id="9vZ-37-7X1"/>
+                <constraint firstItem="rvr-GX-O0Q" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="35" id="Bdk-Vb-hcW"/>
+                <constraint firstAttribute="bottom" secondItem="rNj-Ww-vPB" secondAttribute="bottom" id="HT2-hi-p8A"/>
+                <constraint firstItem="hCz-ez-OQL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" priority="750" constant="103" id="Lwb-z3-IyP"/>
+                <constraint firstAttribute="trailing" secondItem="rNj-Ww-vPB" secondAttribute="trailing" id="NuX-5I-g3V"/>
+                <constraint firstItem="Wfn-ja-94S" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ULX-1m-GkN"/>
+                <constraint firstAttribute="bottom" secondItem="IQI-dE-yLy" secondAttribute="bottom" id="Xso-AB-jsK"/>
+                <constraint firstItem="hCz-ez-OQL" firstAttribute="top" secondItem="rvr-GX-O0Q" secondAttribute="bottom" constant="38" id="bd1-Jh-wQ9"/>
+                <constraint firstItem="rvr-GX-O0Q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dL5-1o-IRr"/>
+                <constraint firstItem="IQI-dE-yLy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dxb-9b-XSr"/>
+                <constraint firstItem="QGO-Q2-nze" firstAttribute="top" secondItem="hCz-ez-OQL" secondAttribute="bottom" constant="93" id="fPD-Zv-v6H"/>
+                <constraint firstItem="r1g-i5-a9M" firstAttribute="top" secondItem="hCz-ez-OQL" secondAttribute="bottom" constant="93" id="gg3-7U-ywz"/>
+                <constraint firstItem="NaX-E7-Hmr" firstAttribute="top" secondItem="Wfn-ja-94S" secondAttribute="bottom" constant="8" id="hLU-Ik-ciR"/>
+                <constraint firstItem="NaX-E7-Hmr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jGA-dl-aIq"/>
+                <constraint firstItem="QGO-Q2-nze" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qXz-dk-dOV"/>
+                <constraint firstAttribute="bottom" secondItem="NaX-E7-Hmr" secondAttribute="bottom" constant="41" id="r0S-fK-qVq"/>
+                <constraint firstItem="hCz-ez-OQL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vbn-MG-3aW"/>
+            </constraints>
+            <point key="canvasLocation" x="497" y="387"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="intro02Button" width="61" height="60"/>
+        <image name="intro02ButtonSelected" width="61" height="60"/>
+        <image name="intro02Graphic01" width="256" height="295"/>
+        <image name="intro02Graphic02" width="140" height="281"/>
+        <image name="intro02Graphic03" width="216" height="134"/>
+        <image name="intro02Graphic04" width="140" height="131"/>
+        <image name="intro02Text" width="206" height="137"/>
+    </resources>
+</document>

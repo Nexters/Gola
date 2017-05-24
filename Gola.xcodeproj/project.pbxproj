@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104346741D3C95100017E983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346731D3C95100017E983 /* main.m */; };
+		1043467F1D3C95100017E983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1043467E1D3C95100017E983 /* Assets.xcassets */; };
+		1043468B1D3C95D40017E983 /* GolaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346891D3C95D40017E983 /* GolaAppDelegate.m */; };
+		104346DA1D3C95EB0017E983 /* GolaMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1043468D1D3C95EB0017E983 /* GolaMainViewController.xib */; };
+		104346DB1D3C95EB0017E983 /* GolaRandomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1043468E1D3C95EB0017E983 /* GolaRandomViewController.xib */; };
+		104346DC1D3C95EB0017E983 /* GolaTournamentResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1043468F1D3C95EB0017E983 /* GolaTournamentResultViewController.xib */; };
+		104346DD1D3C95EB0017E983 /* GolaTournamentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104346901D3C95EB0017E983 /* GolaTournamentViewController.xib */; };
+		104347151D3C95EB0017E983 /* GolaImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346CC1D3C95EB0017E983 /* GolaImageStore.m */; };
+		104347161D3C95EB0017E983 /* GolaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346CE1D3C95EB0017E983 /* GolaItem.m */; };
+		104347171D3C95EB0017E983 /* GolaMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346D11D3C95EB0017E983 /* GolaMainViewController.m */; };
+		104347181D3C95EB0017E983 /* GolaRandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346D31D3C95EB0017E983 /* GolaRandomViewController.m */; };
+		104347191D3C95EB0017E983 /* GolaTournamentResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346D51D3C95EB0017E983 /* GolaTournamentResultViewController.m */; };
+		1043471A1D3C95EB0017E983 /* GolaTournamentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104346D71D3C95EB0017E983 /* GolaTournamentViewController.m */; };
+		1043471E1D3C96000017E983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1043471C1D3C96000017E983 /* LaunchScreen.storyboard */; };
+		107150C31D4F650200A1867A /* GolaIntro02ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107150C11D4F650200A1867A /* GolaIntro02ViewController.xib */; };
+		107150C41D4F650200A1867A /* GolaIntro01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107150C21D4F650200A1867A /* GolaIntro01ViewController.xib */; };
+		107150C91D4F651700A1867A /* GolaIntro01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107150C61D4F651700A1867A /* GolaIntro01ViewController.m */; };
+		107150CA1D4F651700A1867A /* GolaIntro02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107150C81D4F651700A1867A /* GolaIntro02ViewController.m */; };
+		109300371D60613300A456B0 /* gola_img_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFF41D60613300A456B0 /* gola_img_0.jpg */; };
+		109300381D60613300A456B0 /* gola_img_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFF51D60613300A456B0 /* gola_img_1.jpg */; };
+		109300391D60613300A456B0 /* gola_img_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFF61D60613300A456B0 /* gola_img_10.jpg */; };
+		1093003A1D60613300A456B0 /* gola_img_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFF71D60613300A456B0 /* gola_img_11.jpg */; };
+		1093003B1D60613300A456B0 /* gola_img_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFF81D60613300A456B0 /* gola_img_12.jpg */; };
+		1093003C1D60613300A456B0 /* gola_img_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFF91D60613300A456B0 /* gola_img_13.jpg */; };
+		1093003D1D60613300A456B0 /* gola_img_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFFA1D60613300A456B0 /* gola_img_14.jpg */; };
+		1093003E1D60613300A456B0 /* gola_img_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFFB1D60613300A456B0 /* gola_img_15.jpg */; };
+		1093003F1D60613300A456B0 /* gola_img_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFFC1D60613300A456B0 /* gola_img_16.jpg */; };
+		109300401D60613300A456B0 /* gola_img_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFFD1D60613300A456B0 /* gola_img_17.jpg */; };
+		109300411D60613300A456B0 /* gola_img_18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFFE1D60613300A456B0 /* gola_img_18.jpg */; };
+		109300421D60613300A456B0 /* gola_img_19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093FFFF1D60613300A456B0 /* gola_img_19.jpg */; };
+		109300431D60613300A456B0 /* gola_img_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300001D60613300A456B0 /* gola_img_2.jpg */; };
+		109300441D60613300A456B0 /* gola_img_20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300011D60613300A456B0 /* gola_img_20.jpg */; };
+		109300451D60613300A456B0 /* gola_img_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300021D60613300A456B0 /* gola_img_21.jpg */; };
+		109300461D60613300A456B0 /* gola_img_22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300031D60613300A456B0 /* gola_img_22.jpg */; };
+		109300471D60613300A456B0 /* gola_img_23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300041D60613300A456B0 /* gola_img_23.jpg */; };
+		109300481D60613300A456B0 /* gola_img_24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300051D60613300A456B0 /* gola_img_24.jpg */; };
+		109300491D60613300A456B0 /* gola_img_25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300061D60613300A456B0 /* gola_img_25.jpg */; };
+		1093004A1D60613300A456B0 /* gola_img_26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300071D60613300A456B0 /* gola_img_26.jpg */; };
+		1093004B1D60613300A456B0 /* gola_img_27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300081D60613300A456B0 /* gola_img_27.jpg */; };
+		1093004C1D60613300A456B0 /* gola_img_28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300091D60613300A456B0 /* gola_img_28.jpg */; };
+		1093004D1D60613300A456B0 /* gola_img_29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093000A1D60613300A456B0 /* gola_img_29.jpg */; };
+		1093004E1D60613300A456B0 /* gola_img_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093000B1D60613300A456B0 /* gola_img_3.jpg */; };
+		1093004F1D60613300A456B0 /* gola_img_30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093000C1D60613300A456B0 /* gola_img_30.jpg */; };
+		109300501D60613300A456B0 /* gola_img_31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093000D1D60613300A456B0 /* gola_img_31.jpg */; };
+		109300511D60613300A456B0 /* gola_img_32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093000E1D60613300A456B0 /* gola_img_32.jpg */; };
+		109300521D60613300A456B0 /* gola_img_33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093000F1D60613300A456B0 /* gola_img_33.jpg */; };
+		109300531D60613300A456B0 /* gola_img_34.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300101D60613300A456B0 /* gola_img_34.jpg */; };
+		109300541D60613300A456B0 /* gola_img_35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300111D60613300A456B0 /* gola_img_35.jpg */; };
+		109300551D60613300A456B0 /* gola_img_36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300121D60613300A456B0 /* gola_img_36.jpg */; };
+		109300561D60613300A456B0 /* gola_img_37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300131D60613300A456B0 /* gola_img_37.jpg */; };
+		109300571D60613300A456B0 /* gola_img_38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300141D60613300A456B0 /* gola_img_38.jpg */; };
+		109300581D60613300A456B0 /* gola_img_39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300151D60613300A456B0 /* gola_img_39.jpg */; };
+		109300591D60613300A456B0 /* gola_img_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300161D60613300A456B0 /* gola_img_4.jpg */; };
+		1093005A1D60613300A456B0 /* gola_img_40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300171D60613300A456B0 /* gola_img_40.jpg */; };
+		1093005B1D60613300A456B0 /* gola_img_41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300181D60613300A456B0 /* gola_img_41.jpg */; };
+		1093005C1D60613300A456B0 /* gola_img_42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300191D60613300A456B0 /* gola_img_42.jpg */; };
+		1093005D1D60613300A456B0 /* gola_img_43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093001A1D60613300A456B0 /* gola_img_43.jpg */; };
+		1093005E1D60613300A456B0 /* gola_img_44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093001B1D60613300A456B0 /* gola_img_44.jpg */; };
+		1093005F1D60613300A456B0 /* gola_img_45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093001C1D60613300A456B0 /* gola_img_45.jpg */; };
+		109300601D60613300A456B0 /* gola_img_46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093001D1D60613300A456B0 /* gola_img_46.jpg */; };
+		109300611D60613300A456B0 /* gola_img_47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093001E1D60613300A456B0 /* gola_img_47.jpg */; };
+		109300621D60613300A456B0 /* gola_img_48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093001F1D60613300A456B0 /* gola_img_48.jpg */; };
+		109300631D60613300A456B0 /* gola_img_49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300201D60613300A456B0 /* gola_img_49.jpg */; };
+		109300641D60613300A456B0 /* gola_img_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300211D60613300A456B0 /* gola_img_5.jpg */; };
+		109300651D60613300A456B0 /* gola_img_50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300221D60613300A456B0 /* gola_img_50.jpg */; };
+		109300661D60613300A456B0 /* gola_img_51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300231D60613300A456B0 /* gola_img_51.jpg */; };
+		109300671D60613300A456B0 /* gola_img_52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300241D60613300A456B0 /* gola_img_52.jpg */; };
+		109300681D60613300A456B0 /* gola_img_53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300251D60613300A456B0 /* gola_img_53.jpg */; };
+		109300691D60613300A456B0 /* gola_img_54.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300261D60613300A456B0 /* gola_img_54.jpg */; };
+		1093006A1D60613300A456B0 /* gola_img_55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300271D60613300A456B0 /* gola_img_55.jpg */; };
+		1093006B1D60613300A456B0 /* gola_img_56.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300281D60613300A456B0 /* gola_img_56.jpg */; };
+		1093006C1D60613300A456B0 /* gola_img_57.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300291D60613300A456B0 /* gola_img_57.jpg */; };
+		1093006D1D60613300A456B0 /* gola_img_58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093002A1D60613300A456B0 /* gola_img_58.jpg */; };
+		1093006E1D60613300A456B0 /* gola_img_59.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093002B1D60613300A456B0 /* gola_img_59.jpg */; };
+		1093006F1D60613300A456B0 /* gola_img_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093002C1D60613300A456B0 /* gola_img_6.jpg */; };
+		109300701D60613300A456B0 /* gola_img_60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093002D1D60613300A456B0 /* gola_img_60.jpg */; };
+		109300711D60613300A456B0 /* gola_img_61.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093002E1D60613300A456B0 /* gola_img_61.jpg */; };
+		109300721D60613300A456B0 /* gola_img_62.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1093002F1D60613300A456B0 /* gola_img_62.jpg */; };
+		109300731D60613300A456B0 /* gola_img_63.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300301D60613300A456B0 /* gola_img_63.jpg */; };
+		109300741D60613300A456B0 /* gola_img_64.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300311D60613300A456B0 /* gola_img_64.jpg */; };
+		109300751D60613300A456B0 /* gola_img_65.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300321D60613300A456B0 /* gola_img_65.jpg */; };
+		109300761D60613300A456B0 /* gola_img_66.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300331D60613300A456B0 /* gola_img_66.jpg */; };
+		109300771D60613300A456B0 /* gola_img_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300341D60613300A456B0 /* gola_img_7.jpg */; };
+		109300781D60613300A456B0 /* gola_img_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300351D60613300A456B0 /* gola_img_8.jpg */; };
+		109300791D60613300A456B0 /* gola_img_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 109300361D60613300A456B0 /* gola_img_9.jpg */; };
+		10BD7D8F1D623A7B009A621F /* GolaIntro03ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BD7D8E1D623A7B009A621F /* GolaIntro03ViewController.xib */; };
+		10BD7D921D623A8B009A621F /* GolaIntro03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BD7D911D623A8B009A621F /* GolaIntro03ViewController.m */; };
+		10BD7D951D634CE9009A621F /* GolaPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BD7D941D634CE9009A621F /* GolaPulse.m */; };
+		10CEDC4C1D5EFF4600E291E0 /* GolaIntroPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CEDC4B1D5EFF4600E291E0 /* GolaIntroPageViewController.m */; };
+		9711529A1E8ED706000E8D1A /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 971152991E8ED706000E8D1A /* ReadMe.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1043466F1D3C95100017E983 /* Gola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		104346731D3C95100017E983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1043467E1D3C95100017E983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		104346831D3C95100017E983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104346891D3C95D40017E983 /* GolaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaAppDelegate.m; sourceTree = "<group>"; };
+		1043468A1D3C95D40017E983 /* GolaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaAppDelegate.h; sourceTree = "<group>"; };
+		1043468D1D3C95EB0017E983 /* GolaMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GolaMainViewController.xib; sourceTree = "<group>"; };
+		1043468E1D3C95EB0017E983 /* GolaRandomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GolaRandomViewController.xib; sourceTree = "<group>"; };
+		1043468F1D3C95EB0017E983 /* GolaTournamentResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GolaTournamentResultViewController.xib; sourceTree = "<group>"; };
+		104346901D3C95EB0017E983 /* GolaTournamentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GolaTournamentViewController.xib; sourceTree = "<group>"; };
+		104346CB1D3C95EB0017E983 /* GolaImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaImageStore.h; sourceTree = "<group>"; };
+		104346CC1D3C95EB0017E983 /* GolaImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaImageStore.m; sourceTree = "<group>"; };
+		104346CD1D3C95EB0017E983 /* GolaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaItem.h; sourceTree = "<group>"; };
+		104346CE1D3C95EB0017E983 /* GolaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaItem.m; sourceTree = "<group>"; };
+		104346D01D3C95EB0017E983 /* GolaMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaMainViewController.h; sourceTree = "<group>"; };
+		104346D11D3C95EB0017E983 /* GolaMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaMainViewController.m; sourceTree = "<group>"; };
+		104346D21D3C95EB0017E983 /* GolaRandomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaRandomViewController.h; sourceTree = "<group>"; };
+		104346D31D3C95EB0017E983 /* GolaRandomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaRandomViewController.m; sourceTree = "<group>"; };
+		104346D41D3C95EB0017E983 /* GolaTournamentResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaTournamentResultViewController.h; sourceTree = "<group>"; };
+		104346D51D3C95EB0017E983 /* GolaTournamentResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaTournamentResultViewController.m; sourceTree = "<group>"; };
+		104346D61D3C95EB0017E983 /* GolaTournamentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaTournamentViewController.h; sourceTree = "<group>"; };
+		104346D71D3C95EB0017E983 /* GolaTournamentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaTournamentViewController.m; sourceTree = "<group>"; };
+		1043471D1D3C96000017E983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		107150C11D4F650200A1867A /* GolaIntro02ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GolaIntro02ViewController.xib; sourceTree = "<group>"; };
+		107150C21D4F650200A1867A /* GolaIntro01ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GolaIntro01ViewController.xib; sourceTree = "<group>"; };
+		107150C51D4F651700A1867A /* GolaIntro01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaIntro01ViewController.h; sourceTree = "<group>"; };
+		107150C61D4F651700A1867A /* GolaIntro01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaIntro01ViewController.m; sourceTree = "<group>"; };
+		107150C71D4F651700A1867A /* GolaIntro02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaIntro02ViewController.h; sourceTree = "<group>"; };
+		107150C81D4F651700A1867A /* GolaIntro02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaIntro02ViewController.m; sourceTree = "<group>"; };
+		109300001D60613300A456B0 /* gola_img_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_2.jpg; sourceTree = "<group>"; };
+		109300011D60613300A456B0 /* gola_img_20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_20.jpg; sourceTree = "<group>"; };
+		109300021D60613300A456B0 /* gola_img_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_21.jpg; sourceTree = "<group>"; };
+		109300031D60613300A456B0 /* gola_img_22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_22.jpg; sourceTree = "<group>"; };
+		109300041D60613300A456B0 /* gola_img_23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_23.jpg; sourceTree = "<group>"; };
+		109300051D60613300A456B0 /* gola_img_24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_24.jpg; sourceTree = "<group>"; };
+		109300061D60613300A456B0 /* gola_img_25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_25.jpg; sourceTree = "<group>"; };
+		109300071D60613300A456B0 /* gola_img_26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_26.jpg; sourceTree = "<group>"; };
+		109300081D60613300A456B0 /* gola_img_27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_27.jpg; sourceTree = "<group>"; };
+		109300091D60613300A456B0 /* gola_img_28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_28.jpg; sourceTree = "<group>"; };
+		1093000A1D60613300A456B0 /* gola_img_29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_29.jpg; sourceTree = "<group>"; };
+		1093000B1D60613300A456B0 /* gola_img_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_3.jpg; sourceTree = "<group>"; };
+		1093000C1D60613300A456B0 /* gola_img_30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_30.jpg; sourceTree = "<group>"; };
+		1093000D1D60613300A456B0 /* gola_img_31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_31.jpg; sourceTree = "<group>"; };
+		1093000E1D60613300A456B0 /* gola_img_32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_32.jpg; sourceTree = "<group>"; };
+		1093000F1D60613300A456B0 /* gola_img_33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_33.jpg; sourceTree = "<group>"; };
+		109300101D60613300A456B0 /* gola_img_34.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_34.jpg; sourceTree = "<group>"; };
+		109300111D60613300A456B0 /* gola_img_35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_35.jpg; sourceTree = "<group>"; };
+		109300121D60613300A456B0 /* gola_img_36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_36.jpg; sourceTree = "<group>"; };
+		109300131D60613300A456B0 /* gola_img_37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_37.jpg; sourceTree = "<group>"; };
+		109300141D60613300A456B0 /* gola_img_38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_38.jpg; sourceTree = "<group>"; };
+		109300151D60613300A456B0 /* gola_img_39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_39.jpg; sourceTree = "<group>"; };
+		109300161D60613300A456B0 /* gola_img_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_4.jpg; sourceTree = "<group>"; };
+		109300171D60613300A456B0 /* gola_img_40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_40.jpg; sourceTree = "<group>"; };
+		109300181D60613300A456B0 /* gola_img_41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_41.jpg; sourceTree = "<group>"; };
+		109300191D60613300A456B0 /* gola_img_42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_42.jpg; sourceTree = "<group>"; };
+		1093001A1D60613300A456B0 /* gola_img_43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_43.jpg; sourceTree = "<group>"; };
+		1093001B1D60613300A456B0 /* gola_img_44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_44.jpg; sourceTree = "<group>"; };
+		1093001C1D60613300A456B0 /* gola_img_45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_45.jpg; sourceTree = "<group>"; };
+		1093001D1D60613300A456B0 /* gola_img_46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_46.jpg; sourceTree = "<group>"; };
+		1093001E1D60613300A456B0 /* gola_img_47.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_47.jpg; sourceTree = "<group>"; };
+		1093001F1D60613300A456B0 /* gola_img_48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_48.jpg; sourceTree = "<group>"; };
+		109300201D60613300A456B0 /* gola_img_49.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_49.jpg; sourceTree = "<group>"; };
+		109300211D60613300A456B0 /* gola_img_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_5.jpg; sourceTree = "<group>"; };
+		109300221D60613300A456B0 /* gola_img_50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_50.jpg; sourceTree = "<group>"; };
+		109300231D60613300A456B0 /* gola_img_51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_51.jpg; sourceTree = "<group>"; };
+		109300241D60613300A456B0 /* gola_img_52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_52.jpg; sourceTree = "<group>"; };
+		109300251D60613300A456B0 /* gola_img_53.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_53.jpg; sourceTree = "<group>"; };
+		109300261D60613300A456B0 /* gola_img_54.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_54.jpg; sourceTree = "<group>"; };
+		109300271D60613300A456B0 /* gola_img_55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_55.jpg; sourceTree = "<group>"; };
+		109300281D60613300A456B0 /* gola_img_56.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_56.jpg; sourceTree = "<group>"; };
+		109300291D60613300A456B0 /* gola_img_57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_57.jpg; sourceTree = "<group>"; };
+		1093002A1D60613300A456B0 /* gola_img_58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_58.jpg; sourceTree = "<group>"; };
+		1093002B1D60613300A456B0 /* gola_img_59.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_59.jpg; sourceTree = "<group>"; };
+		1093002C1D60613300A456B0 /* gola_img_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_6.jpg; sourceTree = "<group>"; };
+		1093002D1D60613300A456B0 /* gola_img_60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_60.jpg; sourceTree = "<group>"; };
+		1093002E1D60613300A456B0 /* gola_img_61.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_61.jpg; sourceTree = "<group>"; };
+		1093002F1D60613300A456B0 /* gola_img_62.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_62.jpg; sourceTree = "<group>"; };
+		109300301D60613300A456B0 /* gola_img_63.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_63.jpg; sourceTree = "<group>"; };
+		109300311D60613300A456B0 /* gola_img_64.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_64.jpg; sourceTree = "<group>"; };
+		109300321D60613300A456B0 /* gola_img_65.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_65.jpg; sourceTree = "<group>"; };
+		109300331D60613300A456B0 /* gola_img_66.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_66.jpg; sourceTree = "<group>"; };
+		109300341D60613300A456B0 /* gola_img_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_7.jpg; sourceTree = "<group>"; };
+		109300351D60613300A456B0 /* gola_img_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_8.jpg; sourceTree = "<group>"; };
+		109300361D60613300A456B0 /* gola_img_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_9.jpg; sourceTree = "<group>"; };
+		1093FFF41D60613300A456B0 /* gola_img_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_0.jpg; sourceTree = "<group>"; };
+		1093FFF51D60613300A456B0 /* gola_img_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_1.jpg; sourceTree = "<group>"; };
+		1093FFF61D60613300A456B0 /* gola_img_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_10.jpg; sourceTree = "<group>"; };
+		1093FFF71D60613300A456B0 /* gola_img_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_11.jpg; sourceTree = "<group>"; };
+		1093FFF81D60613300A456B0 /* gola_img_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_12.jpg; sourceTree = "<group>"; };
+		1093FFF91D60613300A456B0 /* gola_img_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_13.jpg; sourceTree = "<group>"; };
+		1093FFFA1D60613300A456B0 /* gola_img_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_14.jpg; sourceTree = "<group>"; };
+		1093FFFB1D60613300A456B0 /* gola_img_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_15.jpg; sourceTree = "<group>"; };
+		1093FFFC1D60613300A456B0 /* gola_img_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_16.jpg; sourceTree = "<group>"; };
+		1093FFFD1D60613300A456B0 /* gola_img_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_17.jpg; sourceTree = "<group>"; };
+		1093FFFE1D60613300A456B0 /* gola_img_18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_18.jpg; sourceTree = "<group>"; };
+		1093FFFF1D60613300A456B0 /* gola_img_19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gola_img_19.jpg; sourceTree = "<group>"; };
+		10BD7D8E1D623A7B009A621F /* GolaIntro03ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GolaIntro03ViewController.xib; sourceTree = "<group>"; };
+		10BD7D901D623A8B009A621F /* GolaIntro03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaIntro03ViewController.h; sourceTree = "<group>"; };
+		10BD7D911D623A8B009A621F /* GolaIntro03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaIntro03ViewController.m; sourceTree = "<group>"; };
+		10BD7D931D634CE9009A621F /* GolaPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaPulse.h; sourceTree = "<group>"; };
+		10BD7D941D634CE9009A621F /* GolaPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaPulse.m; sourceTree = "<group>"; };
+		10CEDC4A1D5EFF4600E291E0 /* GolaIntroPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaIntroPageViewController.h; sourceTree = "<group>"; };
+		10CEDC4B1D5EFF4600E291E0 /* GolaIntroPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaIntroPageViewController.m; sourceTree = "<group>"; };
+		971152991E8ED706000E8D1A /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = Gola/ReadMe.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1043466C1D3C95100017E983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104346661D3C95100017E983 = {
+			isa = PBXGroup;
+			children = (
+				971152991E8ED706000E8D1A /* ReadMe.txt */,
+				104346711D3C95100017E983 /* Gola */,
+				104346701D3C95100017E983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		104346701D3C95100017E983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1043466F1D3C95100017E983 /* Gola.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		104346711D3C95100017E983 /* Gola */ = {
+			isa = PBXGroup;
+			children = (
+				1043468A1D3C95D40017E983 /* GolaAppDelegate.h */,
+				104346891D3C95D40017E983 /* GolaAppDelegate.m */,
+				104346CA1D3C95EB0017E983 /* Model */,
+				1043468C1D3C95EB0017E983 /* View */,
+				104346CF1D3C95EB0017E983 /* Controller */,
+				104346721D3C95100017E983 /* Supporting Files */,
+			);
+			path = Gola;
+			sourceTree = "<group>";
+		};
+		104346721D3C95100017E983 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				104346921D3C95EB0017E983 /* Resource */,
+				1043467E1D3C95100017E983 /* Assets.xcassets */,
+				104346831D3C95100017E983 /* Info.plist */,
+				104346731D3C95100017E983 /* main.m */,
+				1043471C1D3C96000017E983 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1043468C1D3C95EB0017E983 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				107150C21D4F650200A1867A /* GolaIntro01ViewController.xib */,
+				107150C11D4F650200A1867A /* GolaIntro02ViewController.xib */,
+				10BD7D8E1D623A7B009A621F /* GolaIntro03ViewController.xib */,
+				1043468D1D3C95EB0017E983 /* GolaMainViewController.xib */,
+				104346901D3C95EB0017E983 /* GolaTournamentViewController.xib */,
+				1043468F1D3C95EB0017E983 /* GolaTournamentResultViewController.xib */,
+				1043468E1D3C95EB0017E983 /* GolaRandomViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		104346921D3C95EB0017E983 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1093FFF31D60613300A456B0 /* FoodImage */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		104346CA1D3C95EB0017E983 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				104346CB1D3C95EB0017E983 /* GolaImageStore.h */,
+				104346CC1D3C95EB0017E983 /* GolaImageStore.m */,
+				104346CD1D3C95EB0017E983 /* GolaItem.h */,
+				104346CE1D3C95EB0017E983 /* GolaItem.m */,
+				10BD7D931D634CE9009A621F /* GolaPulse.h */,
+				10BD7D941D634CE9009A621F /* GolaPulse.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		104346CF1D3C95EB0017E983 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10CEDC4A1D5EFF4600E291E0 /* GolaIntroPageViewController.h */,
+				10CEDC4B1D5EFF4600E291E0 /* GolaIntroPageViewController.m */,
+				107150C51D4F651700A1867A /* GolaIntro01ViewController.h */,
+				107150C61D4F651700A1867A /* GolaIntro01ViewController.m */,
+				107150C71D4F651700A1867A /* GolaIntro02ViewController.h */,
+				107150C81D4F651700A1867A /* GolaIntro02ViewController.m */,
+				10BD7D901D623A8B009A621F /* GolaIntro03ViewController.h */,
+				10BD7D911D623A8B009A621F /* GolaIntro03ViewController.m */,
+				104346D01D3C95EB0017E983 /* GolaMainViewController.h */,
+				104346D11D3C95EB0017E983 /* GolaMainViewController.m */,
+				104346D61D3C95EB0017E983 /* GolaTournamentViewController.h */,
+				104346D71D3C95EB0017E983 /* GolaTournamentViewController.m */,
+				104346D41D3C95EB0017E983 /* GolaTournamentResultViewController.h */,
+				104346D51D3C95EB0017E983 /* GolaTournamentResultViewController.m */,
+				104346D21D3C95EB0017E983 /* GolaRandomViewController.h */,
+				104346D31D3C95EB0017E983 /* GolaRandomViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1093FFF31D60613300A456B0 /* FoodImage */ = {
+			isa = PBXGroup;
+			children = (
+				1093FFF41D60613300A456B0 /* gola_img_0.jpg */,
+				1093FFF51D60613300A456B0 /* gola_img_1.jpg */,
+				1093FFF61D60613300A456B0 /* gola_img_10.jpg */,
+				1093FFF71D60613300A456B0 /* gola_img_11.jpg */,
+				1093FFF81D60613300A456B0 /* gola_img_12.jpg */,
+				1093FFF91D60613300A456B0 /* gola_img_13.jpg */,
+				1093FFFA1D60613300A456B0 /* gola_img_14.jpg */,
+				1093FFFB1D60613300A456B0 /* gola_img_15.jpg */,
+				1093FFFC1D60613300A456B0 /* gola_img_16.jpg */,
+				1093FFFD1D60613300A456B0 /* gola_img_17.jpg */,
+				1093FFFE1D60613300A456B0 /* gola_img_18.jpg */,
+				1093FFFF1D60613300A456B0 /* gola_img_19.jpg */,
+				109300001D60613300A456B0 /* gola_img_2.jpg */,
+				109300011D60613300A456B0 /* gola_img_20.jpg */,
+				109300021D60613300A456B0 /* gola_img_21.jpg */,
+				109300031D60613300A456B0 /* gola_img_22.jpg */,
+				109300041D60613300A456B0 /* gola_img_23.jpg */,
+				109300051D60613300A456B0 /* gola_img_24.jpg */,
+				109300061D60613300A456B0 /* gola_img_25.jpg */,
+				109300071D60613300A456B0 /* gola_img_26.jpg */,
+				109300081D60613300A456B0 /* gola_img_27.jpg */,
+				109300091D60613300A456B0 /* gola_img_28.jpg */,
+				1093000A1D60613300A456B0 /* gola_img_29.jpg */,
+				1093000B1D60613300A456B0 /* gola_img_3.jpg */,
+				1093000C1D60613300A456B0 /* gola_img_30.jpg */,
+				1093000D1D60613300A456B0 /* gola_img_31.jpg */,
+				1093000E1D60613300A456B0 /* gola_img_32.jpg */,
+				1093000F1D60613300A456B0 /* gola_img_33.jpg */,
+				109300101D60613300A456B0 /* gola_img_34.jpg */,
+				109300111D60613300A456B0 /* gola_img_35.jpg */,
+				109300121D60613300A456B0 /* gola_img_36.jpg */,
+				109300131D60613300A456B0 /* gola_img_37.jpg */,
+				109300141D60613300A456B0 /* gola_img_38.jpg */,
+				109300151D60613300A456B0 /* gola_img_39.jpg */,
+				109300161D60613300A456B0 /* gola_img_4.jpg */,
+				109300171D60613300A456B0 /* gola_img_40.jpg */,
+				109300181D60613300A456B0 /* gola_img_41.jpg */,
+				109300191D60613300A456B0 /* gola_img_42.jpg */,
+				1093001A1D60613300A456B0 /* gola_img_43.jpg */,
+				1093001B1D60613300A456B0 /* gola_img_44.jpg */,
+				1093001C1D60613300A456B0 /* gola_img_45.jpg */,
+				1093001D1D60613300A456B0 /* gola_img_46.jpg */,
+				1093001E1D60613300A456B0 /* gola_img_47.jpg */,
+				1093001F1D60613300A456B0 /* gola_img_48.jpg */,
+				109300201D60613300A456B0 /* gola_img_49.jpg */,
+				109300211D60613300A456B0 /* gola_img_5.jpg */,
+				109300221D60613300A456B0 /* gola_img_50.jpg */,
+				109300231D60613300A456B0 /* gola_img_51.jpg */,
+				109300241D60613300A456B0 /* gola_img_52.jpg */,
+				109300251D60613300A456B0 /* gola_img_53.jpg */,
+				109300261D60613300A456B0 /* gola_img_54.jpg */,
+				109300271D60613300A456B0 /* gola_img_55.jpg */,
+				109300281D60613300A456B0 /* gola_img_56.jpg */,
+				109300291D60613300A456B0 /* gola_img_57.jpg */,
+				1093002A1D60613300A456B0 /* gola_img_58.jpg */,
+				1093002B1D60613300A456B0 /* gola_img_59.jpg */,
+				1093002C1D60613300A456B0 /* gola_img_6.jpg */,
+				1093002D1D60613300A456B0 /* gola_img_60.jpg */,
+				1093002E1D60613300A456B0 /* gola_img_61.jpg */,
+				1093002F1D60613300A456B0 /* gola_img_62.jpg */,
+				109300301D60613300A456B0 /* gola_img_63.jpg */,
+				109300311D60613300A456B0 /* gola_img_64.jpg */,
+				109300321D60613300A456B0 /* gola_img_65.jpg */,
+				109300331D60613300A456B0 /* gola_img_66.jpg */,
+				109300341D60613300A456B0 /* gola_img_7.jpg */,
+				109300351D60613300A456B0 /* gola_img_8.jpg */,
+				109300361D60613300A456B0 /* gola_img_9.jpg */,
+			);
+			path = FoodImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1043466E1D3C95100017E983 /* Gola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104346861D3C95100017E983 /* Build configuration list for PBXNativeTarget "Gola" */;
+			buildPhases = (
+				1043466B1D3C95100017E983 /* Sources */,
+				1043466C1D3C95100017E983 /* Frameworks */,
+				1043466D1D3C95100017E983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gola;
+			productName = Gola;
+			productReference = 1043466F1D3C95100017E983 /* Gola.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		104346671D3C95100017E983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Gola;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YJ;
+				TargetAttributes = {
+					1043466E1D3C95100017E983 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3DPPXS9XMF;
+					};
+				};
+			};
+			buildConfigurationList = 1043466A1D3C95100017E983 /* Build configuration list for PBXProject "Gola" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 104346661D3C95100017E983;
+			productRefGroup = 104346701D3C95100017E983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1043466E1D3C95100017E983 /* Gola */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1043466D1D3C95100017E983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109300721D60613300A456B0 /* gola_img_62.jpg in Resources */,
+				109300621D60613300A456B0 /* gola_img_48.jpg in Resources */,
+				1093005D1D60613300A456B0 /* gola_img_43.jpg in Resources */,
+				109300581D60613300A456B0 /* gola_img_39.jpg in Resources */,
+				1093004C1D60613300A456B0 /* gola_img_28.jpg in Resources */,
+				1093006F1D60613300A456B0 /* gola_img_6.jpg in Resources */,
+				109300731D60613300A456B0 /* gola_img_63.jpg in Resources */,
+				109300461D60613300A456B0 /* gola_img_22.jpg in Resources */,
+				1093005B1D60613300A456B0 /* gola_img_41.jpg in Resources */,
+				109300751D60613300A456B0 /* gola_img_65.jpg in Resources */,
+				109300571D60613300A456B0 /* gola_img_38.jpg in Resources */,
+				109300501D60613300A456B0 /* gola_img_31.jpg in Resources */,
+				104346DA1D3C95EB0017E983 /* GolaMainViewController.xib in Resources */,
+				109300481D60613300A456B0 /* gola_img_24.jpg in Resources */,
+				1093006E1D60613300A456B0 /* gola_img_59.jpg in Resources */,
+				109300411D60613300A456B0 /* gola_img_18.jpg in Resources */,
+				104346DC1D3C95EB0017E983 /* GolaTournamentResultViewController.xib in Resources */,
+				109300671D60613300A456B0 /* gola_img_52.jpg in Resources */,
+				1093006B1D60613300A456B0 /* gola_img_56.jpg in Resources */,
+				1093003E1D60613300A456B0 /* gola_img_15.jpg in Resources */,
+				1093004D1D60613300A456B0 /* gola_img_29.jpg in Resources */,
+				1043471E1D3C96000017E983 /* LaunchScreen.storyboard in Resources */,
+				109300431D60613300A456B0 /* gola_img_2.jpg in Resources */,
+				109300531D60613300A456B0 /* gola_img_34.jpg in Resources */,
+				1093003B1D60613300A456B0 /* gola_img_12.jpg in Resources */,
+				109300691D60613300A456B0 /* gola_img_54.jpg in Resources */,
+				109300421D60613300A456B0 /* gola_img_19.jpg in Resources */,
+				109300741D60613300A456B0 /* gola_img_64.jpg in Resources */,
+				109300601D60613300A456B0 /* gola_img_46.jpg in Resources */,
+				109300561D60613300A456B0 /* gola_img_37.jpg in Resources */,
+				109300451D60613300A456B0 /* gola_img_21.jpg in Resources */,
+				109300511D60613300A456B0 /* gola_img_32.jpg in Resources */,
+				109300541D60613300A456B0 /* gola_img_35.jpg in Resources */,
+				104346DD1D3C95EB0017E983 /* GolaTournamentViewController.xib in Resources */,
+				109300611D60613300A456B0 /* gola_img_47.jpg in Resources */,
+				1093004E1D60613300A456B0 /* gola_img_3.jpg in Resources */,
+				109300491D60613300A456B0 /* gola_img_25.jpg in Resources */,
+				109300381D60613300A456B0 /* gola_img_1.jpg in Resources */,
+				109300681D60613300A456B0 /* gola_img_53.jpg in Resources */,
+				10BD7D8F1D623A7B009A621F /* GolaIntro03ViewController.xib in Resources */,
+				9711529A1E8ED706000E8D1A /* ReadMe.txt in Resources */,
+				109300441D60613300A456B0 /* gola_img_20.jpg in Resources */,
+				109300711D60613300A456B0 /* gola_img_61.jpg in Resources */,
+				1093003D1D60613300A456B0 /* gola_img_14.jpg in Resources */,
+				109300631D60613300A456B0 /* gola_img_49.jpg in Resources */,
+				109300651D60613300A456B0 /* gola_img_50.jpg in Resources */,
+				109300641D60613300A456B0 /* gola_img_5.jpg in Resources */,
+				1093003C1D60613300A456B0 /* gola_img_13.jpg in Resources */,
+				1093003F1D60613300A456B0 /* gola_img_16.jpg in Resources */,
+				1093004F1D60613300A456B0 /* gola_img_30.jpg in Resources */,
+				109300761D60613300A456B0 /* gola_img_66.jpg in Resources */,
+				1093005C1D60613300A456B0 /* gola_img_42.jpg in Resources */,
+				109300371D60613300A456B0 /* gola_img_0.jpg in Resources */,
+				1093006A1D60613300A456B0 /* gola_img_55.jpg in Resources */,
+				109300551D60613300A456B0 /* gola_img_36.jpg in Resources */,
+				1093003A1D60613300A456B0 /* gola_img_11.jpg in Resources */,
+				1093006C1D60613300A456B0 /* gola_img_57.jpg in Resources */,
+				1093005A1D60613300A456B0 /* gola_img_40.jpg in Resources */,
+				1093005E1D60613300A456B0 /* gola_img_44.jpg in Resources */,
+				109300771D60613300A456B0 /* gola_img_7.jpg in Resources */,
+				109300401D60613300A456B0 /* gola_img_17.jpg in Resources */,
+				109300781D60613300A456B0 /* gola_img_8.jpg in Resources */,
+				107150C41D4F650200A1867A /* GolaIntro01ViewController.xib in Resources */,
+				109300471D60613300A456B0 /* gola_img_23.jpg in Resources */,
+				109300701D60613300A456B0 /* gola_img_60.jpg in Resources */,
+				1093004B1D60613300A456B0 /* gola_img_27.jpg in Resources */,
+				109300791D60613300A456B0 /* gola_img_9.jpg in Resources */,
+				109300521D60613300A456B0 /* gola_img_33.jpg in Resources */,
+				107150C31D4F650200A1867A /* GolaIntro02ViewController.xib in Resources */,
+				1093004A1D60613300A456B0 /* gola_img_26.jpg in Resources */,
+				109300661D60613300A456B0 /* gola_img_51.jpg in Resources */,
+				1093006D1D60613300A456B0 /* gola_img_58.jpg in Resources */,
+				109300591D60613300A456B0 /* gola_img_4.jpg in Resources */,
+				104346DB1D3C95EB0017E983 /* GolaRandomViewController.xib in Resources */,
+				1093005F1D60613300A456B0 /* gola_img_45.jpg in Resources */,
+				1043467F1D3C95100017E983 /* Assets.xcassets in Resources */,
+				109300391D60613300A456B0 /* gola_img_10.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1043466B1D3C95100017E983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BD7D951D634CE9009A621F /* GolaPulse.m in Sources */,
+				1043471A1D3C95EB0017E983 /* GolaTournamentViewController.m in Sources */,
+				104346741D3C95100017E983 /* main.m in Sources */,
+				1043468B1D3C95D40017E983 /* GolaAppDelegate.m in Sources */,
+				104347181D3C95EB0017E983 /* GolaRandomViewController.m in Sources */,
+				107150C91D4F651700A1867A /* GolaIntro01ViewController.m in Sources */,
+				104347171D3C95EB0017E983 /* GolaMainViewController.m in Sources */,
+				104347191D3C95EB0017E983 /* GolaTournamentResultViewController.m in Sources */,
+				104347151D3C95EB0017E983 /* GolaImageStore.m in Sources */,
+				107150CA1D4F651700A1867A /* GolaIntro02ViewController.m in Sources */,
+				104347161D3C95EB0017E983 /* GolaItem.m in Sources */,
+				10CEDC4C1D5EFF4600E291E0 /* GolaIntroPageViewController.m in Sources */,
+				10BD7D921D623A8B009A621F /* GolaIntro03ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1043471C1D3C96000017E983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1043471D1D3C96000017E983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		104346841D3C95100017E983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		104346851D3C95100017E983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		104346871D3C95100017E983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3DPPXS9XMF;
+				INFOPLIST_FILE = Gola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamnexters.gola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		104346881D3C95100017E983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3DPPXS9XMF;
+				INFOPLIST_FILE = Gola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamnexters.gola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1043466A1D3C95100017E983 /* Build configuration list for PBXProject "Gola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104346841D3C95100017E983 /* Debug */,
+				104346851D3C95100017E983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104346861D3C95100017E983 /* Build configuration list for PBXNativeTarget "Gola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104346871D3C95100017E983 /* Debug */,
+				104346881D3C95100017E983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 104346671D3C95100017E983 /* Project object */;
+}
