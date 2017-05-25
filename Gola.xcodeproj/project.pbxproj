@@ -96,7 +96,6 @@
 		10BD7D921D623A8B009A621F /* GolaIntro03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BD7D911D623A8B009A621F /* GolaIntro03ViewController.m */; };
 		10BD7D951D634CE9009A621F /* GolaPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BD7D941D634CE9009A621F /* GolaPulse.m */; };
 		10CEDC4C1D5EFF4600E291E0 /* GolaIntroPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CEDC4B1D5EFF4600E291E0 /* GolaIntroPageViewController.m */; };
-		9711529A1E8ED706000E8D1A /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 971152991E8ED706000E8D1A /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -203,7 +202,6 @@
 		10BD7D941D634CE9009A621F /* GolaPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaPulse.m; sourceTree = "<group>"; };
 		10CEDC4A1D5EFF4600E291E0 /* GolaIntroPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GolaIntroPageViewController.h; sourceTree = "<group>"; };
 		10CEDC4B1D5EFF4600E291E0 /* GolaIntroPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GolaIntroPageViewController.m; sourceTree = "<group>"; };
-		971152991E8ED706000E8D1A /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = Gola/ReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +218,6 @@
 		104346661D3C95100017E983 = {
 			isa = PBXGroup;
 			children = (
-				971152991E8ED706000E8D1A /* ReadMe.txt */,
 				104346711D3C95100017E983 /* Gola */,
 				104346701D3C95100017E983 /* Products */,
 			);
@@ -490,7 +487,6 @@
 				109300381D60613300A456B0 /* gola_img_1.jpg in Resources */,
 				109300681D60613300A456B0 /* gola_img_53.jpg in Resources */,
 				10BD7D8F1D623A7B009A621F /* GolaIntro03ViewController.xib in Resources */,
-				9711529A1E8ED706000E8D1A /* ReadMe.txt in Resources */,
 				109300441D60613300A456B0 /* gola_img_20.jpg in Resources */,
 				109300711D60613300A456B0 /* gola_img_61.jpg in Resources */,
 				1093003D1D60613300A456B0 /* gola_img_14.jpg in Resources */,
